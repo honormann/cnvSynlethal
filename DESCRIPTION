@@ -1,12 +1,13 @@
-Package: cnvSynlethal
-Title: What the Package Does (One Line, Title Case)
+Package: cnvColethal
+Title: Search for colethal genes associated with CNV loss
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Chuwei Liu", email = "liuchw3@mail2.sysu.edu.cn", role = c("aut", "cre"))
+Description: Tumors often experience gene copy number loss, 
+  which usually results in gene expression downregulation. 
+  We want to find a potential synergistic death-inducing B gene 
+  whose A gene with copy number loss.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
