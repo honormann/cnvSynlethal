@@ -23,18 +23,18 @@
 ### Usage
 ***
    1. Load Raw Data
-     ```sh
-     library("cnvColethal)
-     rawData = new("rawData")   
-     rawData = LoadData(rawData)
-     ```
+   ```sh
+   library("cnvColethal)
+   rawData = new("rawData")   
+   rawData = LoadData(rawData)
+   ```
    2. Load GeneA Data
-     ```sh
-     GeneA = new("GeneA")
-     GeneA = LoadDataA(obj = GeneA, raw_obj = rawData)
-     ```
+   ```sh
+   GeneA = new("GeneA")
+   GeneA = LoadDataA(obj = GeneA, raw_obj = rawData)
+   ```
    3. Load GeneB Data
-     ```sh
-     GeneB = new("GeneB")
-     objB = LoadDataB(obj = objB, raw_obj = rawData, objA = GeneA)
-     ```
+   ```sh
+   GeneB = new("GeneB")
+   objB = LoadDataB(obj = objB, raw_obj = rawData, objA = GeneA)
+   ```
